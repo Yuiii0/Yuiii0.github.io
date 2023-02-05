@@ -1,0 +1,98 @@
+.hidden {
+  display: none;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: "Montserrat", "Gowun Dodum";
+}
+#login-form {
+  width: 400px;
+  height: 30px;
+  margin-left: 3%;
+  margin-top: 40px;
+}
+
+#greeting {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  text-align: right;
+  margin: 30px;
+  margin-bottom: 5px;
+}
+
+#weather {
+  text-align: right;
+  margin-right: 45px;
+}
+
+#container {
+  margin-top: 200px;
+  height: 400px;
+}
+
+input[type="text"] {
+  border-radius: 30px;
+  border: 0;
+  font-family: "Gowun Dodum", sans-serif;
+  font-size: 12px;
+  text-align: center;
+  color: gray;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 3px 10px;
+}
+
+input[type="submit"] {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-family: "Playfair Display SC", sans-serif;
+  font-size: 11px;
+  font-weight: 900;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  background-color: aliceblue;
+  color: #1e6b7b;
+}
+#todo-form {
+  width: 140px;
+  margin: 2% auto;
+}
+
+ul {
+  width: 250px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: "👉🏻";
+  padding-inline-start: 1ch;
+  font-family: "Gowun Dodum", sans-serif;
+  width: 200px;
+  margin: 0 auto;
+}
+
+ul span:first-child {
+  display: inline-block;
+  width: 150px;
+}
+
+#clock {
+  font-size: 100px;
+  font-weight: 900;
+  width: 400px;
+  margin: 0 auto;
+}
+
+#quote {
+  text-align: center;
+  margin-top: 70px;
+}
+
+#quote :first-child {
+  font-size: 18px;
+}
